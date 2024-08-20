@@ -1,7 +1,10 @@
-import React from 'react';
+import React,{useEffect, useState, useContext} from 'react';
 
 import './View.css';
+
 function View() {
+  const [userDetails, setUserDetails] = useState()
+
   return (
     <div className="viewParentDiv">
       <div className="imageShowDiv">
